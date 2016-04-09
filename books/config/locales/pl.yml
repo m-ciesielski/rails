@@ -25,7 +25,8 @@ pl:
       default: "%d/%m/%Y"
       short: "%b %d"
       long: "%d/%m/%Y"
-  hello: "Hello world"
+  main_title: "Książki"
+  book_list_title: "Lista książek"
   activerecord:
     models:
       book:

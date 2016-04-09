@@ -21,7 +21,11 @@
   <tbody>
     <% @books.each do |book| %>
       <tr>
-        <td><%= check_box_tag "read", "read", book.read, disabled: true %></td>
+        <td>
+	<% if book.read == true %>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+        <%end%>
+	</td>
           <td><%= book.title %></td>
           <td><%= book.author %></td>
           <td><%= book.genre %></td>
