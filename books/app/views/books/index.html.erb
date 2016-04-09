@@ -8,7 +8,7 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:read) %></th>
       <th><%= model_class.human_attribute_name(:title) %></th>
       <th><%= model_class.human_attribute_name(:author) %></th>
       <th><%= model_class.human_attribute_name(:genre) %></th>
@@ -21,7 +21,7 @@
   <tbody>
     <% @books.each do |book| %>
       <tr>
-        <td><%= book.id %></td>
+        <td><%= check_box_tag "read", "read", book.read, disabled: true %></td>
           <td><%= book.title %></td>
           <td><%= book.author %></td>
           <td><%= book.genre %></td>
@@ -44,4 +44,4 @@
   </tbody>
 </table>
 
-<%= will_paginate @lists %>
+<%= will_paginate @books %>
