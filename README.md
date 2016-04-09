@@ -4,7 +4,7 @@
 
 1. Zaliczenie:
  - [x] [books](books)
- - [ ] [link do wdrożonej na zewnętrznym serwerze aplikacji](/)
+ - [x] [link do wdrożonej na zewnętrznym serwerze aplikacji](https://simple-books-list.herokuapp.com)
 1. Egzamin:
  - [ ] [nazwa aplikacji](egzamin)
  - [ ] [link do wdrożonej na zewnętrznym serwerze aplikacji](/)
