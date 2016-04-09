@@ -3,7 +3,7 @@
 ### Nazwa Zespołu – Mateusz Ciesielski
 
 1. Zaliczenie:
- - [ ] [nazwa aplikacji](zaliczenie)
+ - [x] [books](books)
  - [ ] [link do wdrożonej na zewnętrznym serwerze aplikacji](/)
 1. Egzamin:
  - [ ] [nazwa aplikacji](egzamin)
