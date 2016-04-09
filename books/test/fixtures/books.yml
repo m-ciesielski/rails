@@ -3,11 +3,13 @@
 one:
   title: MyString
   author: MyString
+  genre: MyString
   year: 2016-04-09
   description: MyText
 
 two:
   title: MyString
   author: MyString
+  genre: MyString
   year: 2016-04-09
   description: MyText
