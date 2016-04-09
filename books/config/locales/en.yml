@@ -21,3 +21,27 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    attributes:
+      book:
+        title: "Title"
+        author: "Author"
+        genre: "Genre"
+        year: "Year"
+        description: "Description"
+        read: "Read"
+  forms:
+    messages:
+      success: "Operation succeeded!"
+    buttons:
+      edit: "Edit"
+      submit: "Submit"
+  menu:
+    new_book: "Add a book"
+  books:
+    index:
+      title: "Books"
+    edit:
+      title: "Edit book"
+    new:
+      title: "New book"
